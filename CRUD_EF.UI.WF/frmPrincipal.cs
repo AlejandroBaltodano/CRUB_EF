@@ -73,6 +73,7 @@ namespace CRUD_EF.UI.WF
             frmEditar frmEditar = new frmEditar(idPersona);
             frmEditar.ShowDialog();
             LLenarGrid();
+            //charles
         }
     }
 }
