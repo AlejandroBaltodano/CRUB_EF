@@ -1,0 +1,5 @@
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.Model\bin\Debug\CRUD_EF.Model.dll
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.Model\bin\Debug\CRUD_EF.Model.pdb
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.Model\obj\Debug\CRUD_EF.Model.csproj.CoreCompileInputs.cache
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.Model\obj\Debug\CRUD_EF.Model.dll
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.Model\obj\Debug\CRUD_EF.Model.pdb
