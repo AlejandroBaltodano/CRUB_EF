@@ -95,5 +95,13 @@ namespace CRUD_EF.AccesoADatos
 
         }
 
+
+
+        //desde aqui empiezan los metodos para crud de telefonos
+
+     
+        
+
+
     }
 }
