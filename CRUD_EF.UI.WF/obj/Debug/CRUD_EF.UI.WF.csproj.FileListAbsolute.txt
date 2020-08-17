@@ -10,7 +10,6 @@ C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\bin\Debug\CRUD_EF.AccesoADato
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\bin\Debug\CRUD_EF.Model.pdb
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\bin\Debug\EntityFramework.xml
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.csprojAssemblyReference.cache
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.frmPrincipal.resources
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.Properties.Resources.resources
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.csproj.GenerateResource.cache

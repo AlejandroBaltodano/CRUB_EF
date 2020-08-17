@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CRUD_EF.Model
 {
-    class TelefonoModel
+    public class TelefonoModel
     {
         public int idTelefono { get; set; }
         public int idPersona { get; set; }

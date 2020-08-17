@@ -13,11 +13,13 @@ namespace CRUD_EF.UI
 
         static void Main(string[] args)
         {
-            mostrarDatos();
+            mostrarDatosTelefono();
             Console.ReadLine();
-            editarPersona();
+            eliminarTelefono();
             Console.ReadLine();
-            mostrarDatos();
+            mostrarDatosTelefono();
+            Console.ReadLine();
+            
 
 
 
@@ -34,6 +36,20 @@ namespace CRUD_EF.UI
             }
         }
 
+        public  static void mostrarDatosTelefono()
+        {
+            AccesoADatos.Context context = new AccesoADatos.Context();
+            List<Model.TelefonoModel> listaTelefonosPersona = context.laListaTelefenosPorPersona(4);
+            foreach (var item in listaTelefonosPersona)
+            {
+
+                Console.WriteLine(item.idPersona+" "+item.Nombre+" "+item.Telefono);
+                Console.ReadLine();
+
+            }
+
+        }
+
         public static void insertarPerosna()
         {
 
@@ -44,6 +60,18 @@ namespace CRUD_EF.UI
             lapersona.FechaNacimiento =  DateTime.Now;
 
             context.insertarPersona(lapersona);
+
+        }
+
+        public static void insertarTelefono()
+        {
+
+            AccesoADatos.Context context = new AccesoADatos.Context();
+            Model.TelefonoModel telefonoModel = new Model.TelefonoModel();
+            telefonoModel.idPersona = 4;
+            telefonoModel.Telefono = "1234567891";
+
+            context.insertarTelefonoPersona(telefonoModel);
 
         }
 
@@ -60,10 +88,27 @@ namespace CRUD_EF.UI
 
         }
 
+        public static void editarTelefono()
+        {
+            AccesoADatos.Context context = new AccesoADatos.Context();
+            Model.TelefonoModel telefonoModel = new Model.TelefonoModel();
+            telefonoModel.idPersona = 4;
+            telefonoModel.Telefono = "60213478";
+
+            context.editarTelefonoPersona(8, telefonoModel);
+        }
+
         public static void eliminarPersona()
         {
             AccesoADatos.Context context = new AccesoADatos.Context();
             context.eliminarPersona(7);
+        }
+
+        public static void eliminarTelefono()
+        {
+            AccesoADatos.Context context = new AccesoADatos.Context();
+            context.eliminarTelefonoPersona(9);
+
         }
 
     }
