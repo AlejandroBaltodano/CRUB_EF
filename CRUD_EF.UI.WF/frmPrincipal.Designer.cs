@@ -33,6 +33,7 @@
             this.btnInsertar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnTelefonos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersona)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,12 +93,23 @@
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
+            // btnTelefonos
+            // 
+            this.btnTelefonos.Location = new System.Drawing.Point(12, 112);
+            this.btnTelefonos.Name = "btnTelefonos";
+            this.btnTelefonos.Size = new System.Drawing.Size(125, 23);
+            this.btnTelefonos.TabIndex = 5;
+            this.btnTelefonos.Text = "CRUD telefonos";
+            this.btnTelefonos.UseVisualStyleBackColor = true;
+            this.btnTelefonos.Click += new System.EventHandler(this.btnTelefonos_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(565, 361);
+            this.Controls.Add(this.btnTelefonos);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnInsertar);
@@ -123,6 +135,7 @@
         private System.Windows.Forms.Button btnInsertar;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnTelefonos;
     }
 }
 

@@ -61,11 +61,23 @@
     <Compile Include="frmEditar.Designer.cs">
       <DependentUpon>frmEditar.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEditarTelefono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarTelefono.Designer.cs">
+      <DependentUpon>frmEditarTelefono.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInsertar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmInsertar.Designer.cs">
       <DependentUpon>frmInsertar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInsertarTelefono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInsertarTelefono.Designer.cs">
+      <DependentUpon>frmInsertarTelefono.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>
@@ -73,16 +85,31 @@
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTelefonos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTelefonos.Designer.cs">
+      <DependentUpon>frmTelefonos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmEditar.resx">
       <DependentUpon>frmEditar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarTelefono.resx">
+      <DependentUpon>frmEditarTelefono.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInsertar.resx">
       <DependentUpon>frmInsertar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmInsertarTelefono.resx">
+      <DependentUpon>frmInsertarTelefono.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTelefonos.resx">
+      <DependentUpon>frmTelefonos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

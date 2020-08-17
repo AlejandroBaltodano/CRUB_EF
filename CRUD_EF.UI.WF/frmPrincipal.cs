@@ -53,27 +53,60 @@ namespace CRUD_EF.UI.WF
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            AccesoADatos.Context context = new AccesoADatos.Context();
-            string id = dgvPersona.CurrentRow.Cells[0].Value.ToString();
-            int idPersona = Int16.Parse(id);
-            context.eliminarPersona(idPersona);
-            MessageBox.Show("Transaccion exitosa");
-            LLenarGrid();
+            if (dgvPersona.Rows.Count == 0)
+            {
+                MessageBox.Show("debe seleccionar un registro");
 
+            }
+            else
+            {
 
+                AccesoADatos.Context context = new AccesoADatos.Context();
+                string id = dgvPersona.CurrentRow.Cells[0].Value.ToString();
+                int idPersona = Int16.Parse(id);
+                context.eliminarPersona(idPersona);
+                MessageBox.Show("Transaccion exitosa");
+                LLenarGrid();
 
-
+            }
 
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            string id = dgvPersona.CurrentRow.Cells[0].Value.ToString();
-            int idPersona = Int16.Parse(id);
-            frmEditar frmEditar = new frmEditar(idPersona);
-            frmEditar.ShowDialog();
-            LLenarGrid();
-            //charles
+            if (dgvPersona.Rows.Count == 0)
+            {
+                MessageBox.Show("Debe de seleccionar un registro");
+
+            }
+            else
+            {
+                string id = dgvPersona.CurrentRow.Cells[0].Value.ToString();
+                int idPersona = Int16.Parse(id);
+                frmEditar frmEditar = new frmEditar(idPersona);
+                frmEditar.ShowDialog();
+                LLenarGrid();
+                //charles
+
+            }
+
+
+        }
+
+        private void btnTelefonos_Click(object sender, EventArgs e)
+        {
+            if (dgvPersona.Rows.Count == 0)
+            {
+                MessageBox.Show("debe seleccionar un registro");
+
+            }
+            else
+            {
+                string id = dgvPersona.CurrentRow.Cells[0].Value.ToString();
+                int idPersona = Int16.Parse(id);
+                frmTelefonos frmTelefonos = new frmTelefonos(idPersona);
+                frmTelefonos.ShowDialog();
+            }
         }
     }
 }

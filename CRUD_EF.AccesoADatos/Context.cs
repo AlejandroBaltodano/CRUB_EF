@@ -157,6 +157,8 @@ namespace CRUD_EF.AccesoADatos
 
         }
 
+        
+
         public void editarTelefonoPersona(int idTelefono, TelefonoModel telefono)
         {
 
