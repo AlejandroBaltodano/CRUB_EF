@@ -56,6 +56,76 @@ namespace CRUD_EF.UI.MVC.Controllers
             
         }
 
+        public ActionResult editarPersona(int id)
+        {
+            AccesoADatos.Context context = new AccesoADatos.Context();
+            var persona = context.obtenerPersonaPorid(id);
+            Models.PersonaModelMVC personaObtenida = new Models.PersonaModelMVC();
+
+            personaObtenida.idPersona = persona.idPersona;
+            personaObtenida.Nombre = persona.Nombre;
+            personaObtenida.Cedula = persona.Cedula;
+            personaObtenida.FechaNacimiento = persona.FechaNacimiento;
+
+
+            return View(personaObtenida);
+        }
+        [HttpPost]
+        public ActionResult editarPersona(Models.PersonaModelMVC personaEditar) {
+
+
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    AccesoADatos.Context context = new AccesoADatos.Context();
+                    Model.PersonaModel persona = new Model.PersonaModel();
+                    persona.Nombre = personaEditar.Nombre;
+                    persona.Cedula = personaEditar.Cedula;
+                    persona.FechaNacimiento = personaEditar.FechaNacimiento;
+
+                    context.editarPersona(personaEditar.idPersona, persona);
+
+                    return Redirect("/");
+
+                }
+                return View(personaEditar);
+
+
+            }
+            catch (Exception e)
+            {
+
+                throw new Exception(e.Message);
+            }
+        
+        
+        }
+
+
+        [HttpGet]
+        public ActionResult eliminarPersona(int id)
+        {
+
+
+            try
+            {
+                
+                AccesoADatos.Context context = new AccesoADatos.Context();
+
+                context.eliminarPersona(id);
+
+                    return Redirect("/");
+            }
+            catch (Exception e)
+            {
+
+                throw new Exception(e.Message);
+            }
+
+
+        }
+
 
         public ActionResult About()
         {

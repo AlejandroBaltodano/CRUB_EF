@@ -18,6 +18,7 @@ namespace CRUD_EF.UI.MVC.Models
         
         [Display(Name = "Fecha de nacimiento")]
         [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode =true)]
         public DateTime? FechaNacimiento { get; set; }
     }
 }

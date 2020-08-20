@@ -129,10 +129,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TelefonosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\PersonaModelMVC.cs" />
+    <Compile Include="Models\TelefonosModelMVC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +174,9 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\nuevaPersona.cshtml" />
+    <Content Include="Views\Home\editarPersona.cshtml" />
+    <Content Include="Views\Telefonos\Index.cshtml" />
+    <Content Include="Views\Telefonos\nuevoTelefono.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

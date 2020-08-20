@@ -85,3 +85,4 @@ C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\CRUD_EF.AccesoADatos.dll
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\CRUD_EF.Model.pdb
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\EntityFramework.xml
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\obj\Debug\CRUD_EF.UI.MVC.csprojAssemblyReference.cache

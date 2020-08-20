@@ -1,15 +1,12 @@
-﻿@model List<CRUD_EF.Model.PersonaModel>
+﻿@model List<CRUD_EF.Model.TelefonoModel>
+
 
 @{
     ViewBag.Title = "CRUD EF MVC";
 }
 
 <div class="jumbotron">
-    <h1>La lista de personas</h1>
-</div>
-
-<div class="row" style="text-align:right; padding:5px">
-    <a href="/Home/nuevaPersona" class="btn btn-primary">Nueva persona</a>
+    <h1>La lista de telefonos por persona</h1>
 </div>
 
 <div class="row">
@@ -20,20 +17,21 @@
                 <th>Id</th>
                 <th>Nombre</th>
                 <th>Cedula</th>
-                <th>Fecha nacimiento</th>
+                <th>Telefono</th>
                 <th></th>
             </tr>
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.idPersona</td>
+                    <td>@item.idTelefono</td>
                     <td>@item.Nombre</td>
                     <td>@item.Cedula</td>
-                    <td>@item.FechaNacimiento.Value.ToString("dd/MM/yyyy")</td>
+                    <td>@item.Telefono</td>
                     <td>
+                        <a href="~/Telefonos/nuevoTelefono/@item.idPersona">Insertar</a> |
                         <a href="~/Home/editarPersona/@item.idPersona">Editar</a> |
                         <a href="~/Home/eliminarPersona/@item.idPersona">Eliminar</a> |
-                        <a href="~/Telefonos/Index/@item.idPersona">Telefonos</a> 
+                       
 
 
                     </td>
@@ -45,5 +43,8 @@
         </table>
 
     </div>
-   
+    <div>
+        <a href="/Home/Index">Regresar a la lista de Personas</a>
+    </div>
+
 </div>
