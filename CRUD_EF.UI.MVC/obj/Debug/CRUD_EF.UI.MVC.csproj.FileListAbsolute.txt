@@ -72,8 +72,16 @@ C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\System.Web.WebPages.Razo
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\Newtonsoft.Json.xml
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\Antlr3.Runtime.pdb
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\obj\Debug\CRUD_EF.UI.MVC.csprojAssemblyReference.cache
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\obj\Debug\CRUD_EF.UI.MVC.csproj.CoreCompileInputs.cache
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\obj\Debug\CRUD_EF.UI.MVC.csproj.CopyComplete
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\obj\Debug\CRUD_EF.UI.MVC.dll
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\obj\Debug\CRUD_EF.UI.MVC.pdb
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\CRUD_EF.AccesoADatos.dll
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\CRUD_EF.Model.dll
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\EntityFramework.dll
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\CRUD_EF.AccesoADatos.pdb
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\CRUD_EF.AccesoADatos.dll.config
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\CRUD_EF.Model.pdb
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\EntityFramework.xml
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.MVC\bin\EntityFramework.SqlServer.xml

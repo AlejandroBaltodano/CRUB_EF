@@ -19,7 +19,7 @@ C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.exe
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.pdb
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.frmInsertar.resources
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.frmEditar.resources
-C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.csprojAssemblyReference.cache
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.frmTelefonos.resources
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.frmInsertarTelefono.resources
 C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.frmEditarTelefono.resources
+C:\Users\Creyes\source\repos\CRUD_EF\CRUD_EF.UI.WF\obj\Debug\CRUD_EF.UI.WF.csprojAssemblyReference.cache

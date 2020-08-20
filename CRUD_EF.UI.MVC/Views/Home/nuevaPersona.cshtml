@@ -1,0 +1,51 @@
+﻿@model CRUD_EF.UI.MVC.Models.PersonaModelMVC
+@{
+    ViewBag.Title = "formulario insertar nueva persona";
+}
+
+<h2>Insertar nueva persona</h2>
+
+
+@using (Html.BeginForm("nuevaPersona", "Home", FormMethod.Post))
+{
+
+    <div class="row">
+        <div class="col-md-12">
+            <div>
+                @Html.LabelFor(d => d.Nombre)
+                @Html.TextBoxFor(d => d.Nombre, "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(d=> d.Nombre, null, new { @class= "alert" })
+
+            </div>
+            <div>
+                @Html.LabelFor(d => d.Cedula)
+                @Html.TextBoxFor(d => d.Cedula, "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(d => d.Cedula, null, new { @class = "alert" })
+            </div>
+           
+            <div>
+                @Html.LabelFor(d => d.FechaNacimiento)<br />
+                @Html.EditorFor(d => d.FechaNacimiento, "", new { @class = "form-control" })
+
+            </div>
+            
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12" style="text-align:right">
+
+                <input value="Insertar" class="btn btn-primary" type="submit" /> 
+                <a href="/" class="btn btn-danger">Cancelar</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+}
+
+
